@@ -10,5 +10,5 @@ Implemented with jQuery, HTML and CSS. Also used normalize.css, digital color me
 # Link
 
 You can view it on codepan:s
-- [JavaScript Calculator](https://www.codeschool.com/screencasts/build-an-interactive-website-part-1)
+- [JavaScript Calculator](http://codepen.io/llwang8/pen/LkZgYw)
 
