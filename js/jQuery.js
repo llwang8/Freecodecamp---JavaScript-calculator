@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 				if (percentIndex - 2 >= 0){
 					var percentTotalIndex = getNumberIndex(percentIndex - 2);
-					alert(percentTotalIndex);
+					//alert(percentTotalIndex);
 				}
 
 				if (percentTotalIndex >= 0){
