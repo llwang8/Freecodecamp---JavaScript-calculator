@@ -1,31 +1,30 @@
 //freecodecamp - JavaScript Calculator -->
 
-<script text/javascript>
-
 var number = "";
 var result = "";
 
-function onClick(value) {
+function process(value) {
+	document.getElementById("output").innerHTML = value;
 	if (value != "CE") {
 		switch(value){
 			case "0":
 			case "1":
 			case "2":
 			case "3":
-			case "4:"
+			case "4":
 			case "5":
 			case "6":
 			case "7":
 			case "8":
 			case "9":
-			case "."
+			case ".":
 				if (result.match(/%data%/i)) {
 					result.replace("/%data%/i", parseFloat(value));
 					result = parseFloat(result);
-					document.getElementById("demo").innerHTML = result;
+					document.getElementById("output").innerHTML = result;
 					result = String(result);
 					number = "";
-				else {
+				}else {
 					number += value;
 				}
 				break;
@@ -40,9 +39,9 @@ function onClick(value) {
 			case "AC":
 				number = "";
 				result = "";
-			case "Ans"
+			case "Ans":
 			case "=":
-				document.getElementById("demo").innerHTML = parseFloat(result);
+				document.getElementById("output").innerHTML = parseFloat(result);
 				//result = Parser.evaluate(result);
 				//result = Math.eval(result);
 				break;
@@ -62,9 +61,10 @@ function onClick(value) {
 
 }
 
-
-
-
-
-
-</script>
+$(document).ready(function(){
+	$('button').click(function(){
+		alert($(this).text());
+		$('#output').html($(this).text());
+		//process($(this).text());
+	});
+});

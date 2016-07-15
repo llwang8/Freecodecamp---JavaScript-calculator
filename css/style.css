@@ -1,1 +1,82 @@
 <!-- freecodecamp - JavaScript Calculator -->
+
+
+/************************************
+
+ *   Front-end News! Stylesheet
+
+ *  white           : #fff;
+ *  header background: #405482
+
+ *  Indigo        : #3f51b5
+ *  Indigo (dark) : #303f9f
+ *  Light blue    : #c5cae9
+ *  White         : #fff
+ *  Pink          : #ff4081
+ *  Gray (dark)   : #212121
+ *  Gray (medium) : #727272
+ *  Gray (light)  : #b6b6b6
+*************************************
+
+/*------------------------------------
+ *  Base
+------------------------------------*/
+body {
+    font-size: 18px;
+    color: #8000ff;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+button:last-child {
+    margin-right: 0;
+
+}
+
+input {
+    border-bottom: 1px solid #b6b6b6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 15px;
+    width: 93%;
+}
+
+/*------------------------------------
+ *  container
+------------------------------------*/
+.container {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 320px;
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+/*------------------------------------
+ *  logo
+------------------------------------*/
+.logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*------------------------------------
+ *  block
+------------------------------------*/
+.block {
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
