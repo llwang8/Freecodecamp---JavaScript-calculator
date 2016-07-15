@@ -9,6 +9,6 @@ Implemented with jQuery, HTML and CSS. Also used normalize.css, digital color me
 
 # Link
 
-You can view it on codepan:s
+You can view it on codepan:
 - [JavaScript Calculator](http://codepen.io/llwang8/pen/LkZgYw)
 
